@@ -6,6 +6,5 @@
 - 생성: Quartz 빌드(`homepage_build.sh`) → 발행(`homepage_publish.sh`)
 - repo 루트 = 사이트 루트(정적 HTML/CSS/JS)
 
-## 서버 개발자 가이드
-배포·서빙 절차는 지식창고 문서 `99_System/homepage_deploy.md` 참조.
-요약: `git pull` → docroot 배치 → nginx/apache 정적 서빙.
+## 📄 서버 개발자 가이드 → [DEPLOY.md](DEPLOY.md)
+clone → docroot 배치 → nginx/apache 서빙 → 갱신은 `git pull`. (public이라 인증 불요)
